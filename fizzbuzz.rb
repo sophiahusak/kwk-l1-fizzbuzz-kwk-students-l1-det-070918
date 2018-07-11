@@ -9,4 +9,4 @@ def fizz_buzz(number)
     puts "nil"
   end
 end
-fizz_buzz(15)
+fizz_buzz(8)
