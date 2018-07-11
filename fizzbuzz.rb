@@ -1,9 +1,9 @@
 def fizz_buzz(number)
-  if number % 3 && 5
+  if number % 3
     puts "Fizz"
-  elsif number % 3
+  elsif number % 5
     puts "Buzz"
-  else number % 5
+  else number % 3 && number % 5
     puts "FizzBuzz"
   end
 end
