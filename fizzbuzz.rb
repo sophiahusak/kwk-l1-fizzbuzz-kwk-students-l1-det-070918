@@ -3,7 +3,7 @@ def fizz_buzz(number)
     puts "Fizz"
   elseif number % 5
     puts "Buzz"
-  else number % 3 && % 5
+  else number % 3 && 5
     puts "FizzBuzz"
   end
 end
